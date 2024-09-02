@@ -1,0 +1,6 @@
+git filter-branch -f --env-filter "
+     GIT_AUTHOR_NAME='your_github_username'
+     GIT_AUTHOR_EMAIL='your_github_user_email'
+     GIT_COMMITTER_NAME='your_github_username'
+     GIT_COMMITTER_EMAIL='your_github_user_email'
+   " HEAD
